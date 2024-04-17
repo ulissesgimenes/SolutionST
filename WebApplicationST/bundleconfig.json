@@ -1,0 +1,21 @@
+[
+	{
+		"outputFileName": "wwwroot/css/site.min.css",
+		"inputFiles": [
+			"wwwroot/css/body.css",
+			"wwwroot/css/site.css"
+		]
+	},
+	{
+		"outputFileName": "wwwroot/js/functions-site.min.js",
+		"inputFiles": [
+			"wwwroot/js/functions-site.js",
+			"wwwroot/js/functions-site-outras.js"
+		],
+		"minify": {
+			"enabled": true,
+			"renameLocals": true
+		},
+		"sourceMap": false
+	}
+]
